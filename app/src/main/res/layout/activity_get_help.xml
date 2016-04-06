@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.aubg.aubg_emergency.getHelp"
+    android:background="@drawable/background_gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".18"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/see"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/violence"
+        android:textStyle="bold"
+        android:gravity="bottom|center"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/fist"
+        android:id="@+id/button3"
+        android:onClick="threatOfViolence"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/weapon"
+        android:textStyle="bold"
+        android:gravity="top|center"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/gun"
+        android:id="@+id/button4"
+        android:onClick="weaponOnCampus"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/emergency_map"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:lineSpacingMultiplier=".8"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:background="@drawable/escape"
+        android:id="@+id/button5"
+        android:onClick="emergencyMap"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

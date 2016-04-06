@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AUBG Emergency</string>
+    <string name="action_settings">Settings</string>
+    <string name="see">I Can See...</string>
+    <string name="violence">VIOLENCE</string>
+    <string name="weapon">WEAPON</string>
+    <string name="emergency_map">ESCAPE</string>
+    <string name="help">Get Help</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="call">Call</string>
+    <string name="how">How Do I Know?</string>
+    <string name ="bat1">\u2022 Evaluate the situation and interfere if possible</string>
+    <string name ="bat2">\u2022 Look around you for someone that can help</string>
+    <string name ="bat3">\u2022 Call security</string>
+    <string name ="bat4">\u2022 Call the police</string>
+    <string name ="bullied1">\u2022 Interfere if it is safe</string>
+    <string name ="bullied2">\u2022 Assist the bullied person</string>
+    <string name ="bullied3">\u2022 Call security</string>
+    <string name ="bullied4">\u2022 Get injured person to medical staff</string>
+    <string name ="conflict1">\u2022 Observe for a while to see if it\'s something serious</string>
+    <string name ="conflict2">\u2022 Try to understand what the conflict is about</string>
+    <string name ="conflict3">\u2022 Try to end it without further escalations</string>
+    <string name ="followed1">\u2022 Call security</string>
+    <string name ="followed2">\u2022 Follow them too</string>
+    <string name ="followed3">\u2022 Talk to the person being followed if you know them</string>
+    <string name ="followed4">\u2022 Stop the follower if you know him</string>
+    <string name ="gun1">\u2022 Call the police</string>
+    <string name ="gun2">\u2022 Hide and call security, the police, and an ambulance</string>
+    <string name ="knives1">\u2022 Call security and the police</string>
+    <string name ="knives2">\u2022 Try to convince the person to drop the blade</string>
+    <string name ="knives3">\u2022 Don\'t try to tackle the person holding the blade</string>
+    <string name="beacon">Beacon Enabled</string>
+    <string name="mapSnap">Snap map to user</string>
+    <string name="phoneHint">Phone</string>
+    <string name="emergencyPhone">Enter an emergency contact:</string>
+    <string name="nameHint">Name</string>
+    <string name="enterName">Enter your name: </string>
+    <string name="workTime">Sk1, Sk2, Sk3, BAC, ABF, MB 00:00 – 24:00</string>
+    <string name="assisstance">Type of assisstance provided: Security</string>
+    <string name="guard1">Dankata Dankov</string>
+    <string name="guard2">Mario Todorov</string>
+    <string name="saveButton">SAVE</string>
+
+</resources>

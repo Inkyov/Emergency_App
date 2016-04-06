@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aubg.aubg_emergency.Followed">
+
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/bat1"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/bat2"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/bat3"
+        android:id="@+id/textView10"  />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/bat4"
+        android:id="@+id/textView11" />
+
+</LinearLayout>

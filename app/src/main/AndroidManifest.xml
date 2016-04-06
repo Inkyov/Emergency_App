@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aubg.aubg_emergency">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/emergency_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".getHelp"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".threatOfViolence"
+            android:parentActivityName=".getHelp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".weaponOnCampus"
+            android:parentActivityName=".getHelp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".howDoIKnowThreat"
+            android:parentActivityName=".threatOfViolence"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".howDoIKnowWeapon"
+            android:parentActivityName=".weaponOnCampus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmergencyMap"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name="com.customlbs.service.Worker"
+            android:process=":remote"/>
+
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".BeaconService"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+
+</manifest>
